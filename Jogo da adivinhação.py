@@ -1,8 +1,15 @@
+import random
+
+
+
+
 print("*********************************")
 print("Bem vindo ao jogo da Adivinhação!")
 print("*********************************")
 
-numero_secreto = 42
+numero_secreto = random.randrange(1,101)
+total_de_tentativa = 0
+pontos = 1000
 
 chute =int(input("Digite o seu numero"))
 
