@@ -11,6 +11,15 @@ numero_secreto = random.randrange(1,101)
 total_de_tentativa = 0
 pontos = 1000
 
+print("Qual nivel de dificuldade você deseja?")
+print("(1) Fácil (2) Médio (3) Difícil")
+
+
+nivel= int(input("Define o nível: "))
+if(nivel == 1):
+
+
+
 chute =int(input("Digite o seu numero"))
 
 if numero_secreto == chute:
